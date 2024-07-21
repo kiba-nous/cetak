@@ -700,3 +700,67 @@ footer {
         margin-top: 1rem;
     }
 }
+ {
+    header {
+        padding: 0.5rem 1rem 1rem;
+    }
+
+    nav ul {
+        margin-bottom: 0.5rem;
+    }
+
+    #home {
+        height: calc(100vh - 80px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .hero-content {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 1rem;
+        border-radius: 10px;
+        text-align: center;
+        max-width: 90%;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+        margin-bottom: 0.5rem;
+    }
+
+    .hero-content h2, .hero-content h3 {
+        font-size: 1.5em;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .subheading {
+        font-size: 1em;
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .cta-button {
+        font-size: 0.9em;
+        padding: 0.5rem 1rem;
+    }
+
+    section {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .services-title, .about-title, .contact-title {
+        font-size: 2em;
+    }
+
+    .service-item h3, .about-item h3, .contact-info h3, .contact-form h3 {
+        font-size: 1.2em;
+    }
+
+    .service-item p, .about-item p, .contact-info p {
+        font-size: 0.9em;
+    }
+}
